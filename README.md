@@ -12,9 +12,9 @@ Now click on Choose file upload your custom dataset (.csv) and click the button 
 # Machine Algorithms
 We are using three algorithms to train the model.
 The algorithms are
-  # .Gaussian Naive Bayes
-  # .Multinomial Naive Bayes
-  # .LightGBM
+  Gaussian Naive Bayes
+  Multinomial Naive Bayes
+  LightGBM
 
 # Implementation
 Run the main.py in vscode or any other pythonIDE.
