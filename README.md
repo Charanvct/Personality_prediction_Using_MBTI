@@ -9,6 +9,13 @@ Run the main.py file and receive a local host IP address(127.0.0.1). Open that l
 
 Now click on Choose file upload your custom dataset (.csv) and click the button and you will get the personality type of the dataset provided.
 
+# Machine Algorithms
+We are using three algorithms to train the model.
+The algorithms are
+  # .Gaussian Naive Bayes
+  # .Multinomial Naive Bayes
+  # .LightGBM
+
 # Implementation
-  Run the main.py in vscode or any other pythonIDE.
-  Execute the notebook in the Google Colab. You can even use the Jupyter Notebook to execute the machine code. 
+Run the main.py in vscode or any other pythonIDE.
+Execute the notebook in the Google Colab. You can even use the Jupyter Notebook to execute the machine code. 
