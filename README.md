@@ -18,4 +18,5 @@ The algorithms are
 
 # Implementation
 Run the main.py in vscode or any other pythonIDE.
+
 Execute the notebook in the Google Colab. You can even use the Jupyter Notebook to execute the machine code. 
