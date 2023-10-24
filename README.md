@@ -8,3 +8,7 @@ After downloading the dataset store the dataset in your Google Drive, the file i
 Run the main.py file and receive a local host IP address(127.0.0.1). Open that local host ip in a browser and your HTML will be displayed.
 
 Now click on Choose file upload your custom dataset (.csv) and click the button and you will get the personality type of the dataset provided.
+
+# Implementation
+  Run the main.py in vscode or any other pythonIDE.
+  Execute the notebook in the Google Colab. You can even use the Jupyter Notebook to execute the machine code. 
