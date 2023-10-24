@@ -7,7 +7,4 @@ After downloading the dataset store the dataset in your Google Drive, the file i
 
 Run the main.py file and receive a local host IP address(127.0.0.1). Open that local host ip in a browser and your HTML will be displayed.
 
-![image](https://github.com/Charanvct/Personality_prediction_Using_MBTI/assets/118186891/9635a74f-504b-4aac-ab3e-b6e7d5151fd3)
-
-
 Now click on Choose file upload your custom dataset (.csv) and click the button and you will get the personality type of the dataset provided.
