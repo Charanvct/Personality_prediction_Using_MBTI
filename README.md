@@ -24,3 +24,10 @@ We are using three algorithms to train the model. They are
 Run the main.py in vscode or any other pythonIDE.
 
 Execute the notebook in the Google Colab. You can even use the Jupyter Notebook to execute the machine code. 
+
+# Custom Dataset
+Since to predict the personality we need to give input. So we need to make a .csv file that will include the text(tweets).
+
+Here's a CSV file that I made manually which is in the dataset folder.
+
+You can store this CSV file anywhere you want. There is no restriction for placing this custom-made file in a fixed location as compared to the other files.
