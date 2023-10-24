@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Personality Prediction</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <style>
+        /* Add custom CSS styles here */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            padding: 50px; /* Add padding to center the content */
+        }
+
+        .container {
+            margin-top: 50px;
+        }
+
+        table {
+            margin: 0 auto;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #333;
+            color: white;
+        }
+
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+        }
+
+        .btn-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .btn {
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Personality Prediction</h2>
+        <table>
+            <tr>
+                <th colspan="2">Input the Twitter Handle</th>
+            </tr>
+            <tr>
+                <form action="/upload" method="post" enctype="multipart/form-data">
+                <td>
+                        <input type="file" name="csv_file">
+                </td>
+
+                <td>
+                        <input type="submit" value="Upload and Process" class ="btn btn-success">
+                    
+                  </td>
+                </form>
+            </tr>
+        </table>
+        
+        <h1>{{ result }}</h1>
+    </div>
+</body>
+</html>
