@@ -11,9 +11,13 @@ Now click on Choose file upload your custom dataset (.csv) and click the button 
 
 # Machine Algorithms
 We are using three algorithms to train the model.
+
 The algorithms are
+
   Gaussian Naive Bayes
+  
   Multinomial Naive Bayes
+  
   LightGBM
 
 # Implementation
