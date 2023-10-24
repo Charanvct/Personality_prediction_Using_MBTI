@@ -14,7 +14,7 @@ app = Flask(__name__)
 # Load the pre-trained LightGBM models
 def load_lightgbm_model():
     try:
-        model = joblib.load("C:\\Users\\chara\\Downloads\\model1.pkl")
+        model = joblib.load("path_of_the_pickle_file_in_your_local_system")
         return model
     except Exception as e:
         print(f"Error loading the models: {e}")
@@ -33,7 +33,7 @@ def upload_file():
         csv_file = request.files['csv_file']
         if csv_file.filename != '':
             # Save the uploaded CSV file to a location
-            file_path = 'C:\\Users\\chara\\OneDrive\\Desktop\\4-1 Miniproject\\' + csv_file.filename
+            file_path = 'path_for_storing_the_csv_file_in_your_local_system(use \\ in path instead of \ to overcome error)' + csv_file.filename
             csv_file.save(file_path)
 
             # Load the pre-trained LightGBM models
